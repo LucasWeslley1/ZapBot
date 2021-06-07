@@ -802,7 +802,7 @@ if (!isGroup && !isCmd) console.log(color('MENSAGEM RECEBIDA', 'aqua'), color('H
 
 //_RESPONDER AUTOMATICAMENTE
 if ((budy === 'Bloom') || (budy === 'BLOOM') || (budy === 'bloom')) {
-buf = fs.readFileSync(`./src/Bloom.mp3`)
+buf = fs.readFileSync(`./src/Bloomq.mp3`)
 tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
 }
 if ((budy === 'Nezuko') || (budy === 'NEZUKO') || (budy === 'nezuko')) {
