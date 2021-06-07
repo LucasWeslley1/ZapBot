@@ -1,6 +1,6 @@
 Comandos Para Usar No Termux!
 - pkg install git
-- git clone https://github.com/LucasWeslley1/ZapBott
+- git clone https://github.com/LucasWeslley1/ZapBot
 - cd ZapBot
 - bash install.sh
 - npm start
