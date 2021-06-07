@@ -814,7 +814,7 @@ buf = fs.readFileSync(`./src/Levi.mp3`)
 tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
 }
 if ((budy === 'Bloom') || (budy === 'BLOOM') || (budy === 'bloom')) {
-buf = fs.readFileSync(`./src/Bloom.mp3`)
+buf = fs.readFileSync(`./src/Bloomq.mp3`)
 tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
 }
 if ((budy === 'Nezuko') || (budy === 'NEZUKO') || (budy === 'nezuko')) {
