@@ -801,6 +801,18 @@ if (!isCmd && isGroup) console.log(color('MENSAGEM RECEBIDA', 'aqua'), color('HO
 if (!isGroup && !isCmd) console.log(color('MENSAGEM RECEBIDA', 'aqua'), color('HORA:', 'orange'), color(moment.tz('America/Sao_Paulo').format('HH:mm:ss'), 'yellow'), 'DE:', color(pushname))
 
 //_RESPONDER AUTOMATICAMENTE
+if ((budy === 'Baka') || (budy === 'BAKA') || (budy === 'baka')) {
+buf = fs.readFileSync(`./src/Baka.mp3`)
+tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
+}
+if ((budy === 'Eren') || (budy === 'EREN') || (budy === 'eren')) {
+buf = fs.readFileSync(`./src/Tatakae.mp3`)
+tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
+}
+if ((budy === 'Levi') || (budy === 'LEVI') || (budy === 'levi')) {
+buf = fs.readFileSync(`./src/Levi.mp3`)
+tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
+}
 if ((budy === 'Bloom') || (budy === 'BLOOM') || (budy === 'bloom')) {
 buf = fs.readFileSync(`./src/Bloomq.mp3`)
 tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
