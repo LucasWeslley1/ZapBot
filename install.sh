@@ -16,15 +16,15 @@ LIGHTPURPLE='\033[1;35m'
 LIGHTCYAN='\033[1;36m'
 WHITE='\033[1;37m'
 
- echo -e " ${YELLOW}Iniciando..."
+ echo -e " ${GREEN}Carregando..."
 sleep 4
 
-echo -e "Bot criado por:"
+echo -e " ${CYAN}Bot criado por:"
 sleep 1
 
 echo -e " ${RED} ▒█░░░ ▒█░▒█ ▒█▀▀█ ░█▀▀█ ▒█▀▀▀█"
 echo -e " ${RED} ▒█░░░ ▒█░▒█ ▒█░░░ ▒█▄▄█ ░▀▀▀▄▄"
-echo -e " ${RED} ▒█▄▄█ ░▀▄▄▀ ▒█▄▄█ ▒█░▒█ ▒█▄▄▄█"
+echo -e " ${RED} ▒█▄▄█ ░█▄▄█ ▒█▄▄█ ▒█░▒█ ▒█▄▄▄█"
 sleep 2
 
 echo -e " ${YELLOW} Olá"
@@ -32,7 +32,7 @@ echo -e " ${YELLOW} Todos os arquivos fundamentais serão instalados! aguarde...
 echo -e " ${YELLOW} Aguarde alguns segundos..."
 sleep 5
 
-echo -e " ${CYAN}A instalando os arquivos..."
+echo -e " ${CYAN}Instalando todos os arquivos necessários..."
 sleep 5
 
 echo -e " ${NOCOLOR}"
