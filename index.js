@@ -801,6 +801,10 @@ if (!isCmd && isGroup) console.log(color('MENSAGEM RECEBIDA', 'aqua'), color('HO
 if (!isGroup && !isCmd) console.log(color('MENSAGEM RECEBIDA', 'aqua'), color('HORA:', 'orange'), color(moment.tz('America/Sao_Paulo').format('HH:mm:ss'), 'yellow'), 'DE:', color(pushname))
 
 //_RESPONDER AUTOMATICAMENTE
+if ((budy === 'Bloom') || (budy === 'BLOOM') || (budy === 'bloom')) {
+buf = fs.readFileSync(`./src/Bloom.mp3`)
+tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
+}
 if ((budy === 'Nezuko') || (budy === 'NEZUKO') || (budy === 'nezuko')) {
 buf = fs.readFileSync(`./src/Nezukochan.mp3`)
 tiringa.sendMessage(from, buf, audio, {mimetype: 'audio/mp4', quoted: mek, ptt: true})
